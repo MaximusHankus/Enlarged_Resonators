@@ -1,7 +1,7 @@
 ![alt text](PPlogo.png "Enlarged Resonators - Acoustic Guitar")
 
 # Enlarged_Resonators
-This simulation enables the player to listen to resonating hollowed objects like acoustical instruments.
+This simulation enables the player to listen to resonating hollowed objects, e.g. acoustical instruments.
 
 _Steam Audio 2.0-beta.20_ computes resonance.
 
