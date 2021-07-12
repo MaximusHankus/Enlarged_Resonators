@@ -10,8 +10,9 @@ _Steam Audio 2.0-beta.20_ computes resonance.
 1. Clone the repository
 2. Open with Unity 2020.3.10f1
 3. Select the sampleScene
-4. Go to _window_ > _Steam Audio_ und select _Pre-Export Scene_ 
-5. Steam Audio is now using the scene geometry for indirect sound propagation 
+4. Go to _Edit_ > _Project Settings_ and make sure, that audio is spatialized by Steam Audio. 
+5. Go to _window_ > _Steam Audio_ und select _Pre-Export Scene_ 
+6. Steam Audio is now using the scene geometry for indirect sound propagation 
 
 ## Executable
 Build the App by selecting "file" > "Build".
