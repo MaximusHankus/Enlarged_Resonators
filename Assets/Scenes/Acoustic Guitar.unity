@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.136
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1833899386}
-  m_IndirectSpecularColor: {r: 0.02433896, g: 0.030476125, b: 0.04160573, a: 0.136}
+  m_IndirectSpecularColor: {r: 0.024518559, g: 0.030697074, b: 0.041741453, a: 0.136}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6659,6 +6659,28 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1914606633}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &299343264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299343262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052d599a015141b47a4d10676f2dac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
+  bakedProbeNames:
+  - Probe
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
+  bakedStatsFoldout: 1
+  bakeToggle: 1
+  currentStaticListenerNode: {fileID: 0}
 --- !u!81 &299343265
 AudioListener:
   m_ObjectHideFlags: 0
@@ -11232,7 +11254,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &482584744
 Transform:
@@ -11306,7 +11328,7 @@ AudioSource:
   m_GameObject: {fileID: 482584743}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0111950a829fcc94a93f4ffa4be9eca8,
+  OutputAudioMixerGroup: {fileID: -453015596009016452, guid: a107a1f2c12d1994489de4f53f56e4e6,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 25f291ffea46c974c9b25924ef99cca1, type: 3}
   m_PlayOnAwake: 0
@@ -11315,7 +11337,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 0
   DopplerLevel: 0
   MinDistance: 3.2
@@ -11324,7 +11346,7 @@ AudioSource:
   rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 1
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -11439,18 +11461,19 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 1
+  simulationType: 0
   uniqueIdentifier: BakedA
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
   hrtfIndex: 0
-  bakingRadius: 24
-  useAllProbeBoxes: 1
-  probeBoxes: []
+  bakingRadius: 16
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 7eb30600
-  bakedDataSize: 439166
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -12427,7 +12450,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &513824760
 Transform:
@@ -12501,7 +12524,7 @@ AudioSource:
   m_GameObject: {fileID: 513824759}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0111950a829fcc94a93f4ffa4be9eca8,
+  OutputAudioMixerGroup: {fileID: -453015596009016452, guid: a107a1f2c12d1994489de4f53f56e4e6,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 7ad3e45b94086084b95461388a007da4, type: 3}
   m_PlayOnAwake: 0
@@ -12510,7 +12533,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 0
   DopplerLevel: 0
   MinDistance: 3.2
@@ -12519,7 +12542,7 @@ AudioSource:
   rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 1
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12634,18 +12657,19 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 1
+  simulationType: 0
   uniqueIdentifier: BakedG
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
   hrtfIndex: 0
-  bakingRadius: 24
-  useAllProbeBoxes: 1
-  probeBoxes: []
+  bakingRadius: 16
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 7eb30600
-  bakedDataSize: 439166
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -19152,7 +19176,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &846868366
 Transform:
@@ -19177,7 +19201,7 @@ AudioSource:
   m_GameObject: {fileID: 846868365}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0111950a829fcc94a93f4ffa4be9eca8,
+  OutputAudioMixerGroup: {fileID: -453015596009016452, guid: a107a1f2c12d1994489de4f53f56e4e6,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: cbade74f0182cd4408dbb767d9c8a302, type: 3}
   m_PlayOnAwake: 0
@@ -19186,7 +19210,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 0
   DopplerLevel: 0
   MinDistance: 3.2
@@ -19195,7 +19219,7 @@ AudioSource:
   rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 1
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -19310,18 +19334,19 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 1
-  uniqueIdentifier: BakedE
+  simulationType: 0
+  uniqueIdentifier: BakeE
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
   hrtfIndex: 0
-  bakingRadius: 24
-  useAllProbeBoxes: 1
-  probeBoxes: []
+  bakingRadius: 16
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 7eb30600
-  bakedDataSize: 439166
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -24069,7 +24094,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1118236915
 Transform:
@@ -24143,7 +24168,7 @@ AudioSource:
   m_GameObject: {fileID: 1118236914}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0111950a829fcc94a93f4ffa4be9eca8,
+  OutputAudioMixerGroup: {fileID: -453015596009016452, guid: a107a1f2c12d1994489de4f53f56e4e6,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f6946eb593fb7034aa8bef1dd9c6695c, type: 3}
   m_PlayOnAwake: 0
@@ -24152,7 +24177,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 0
   DopplerLevel: 0
   MinDistance: 3.2
@@ -24161,7 +24186,7 @@ AudioSource:
   rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 1
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -24276,18 +24301,19 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 1
+  simulationType: 0
   uniqueIdentifier: BakedH
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
   hrtfIndex: 0
-  bakingRadius: 24
-  useAllProbeBoxes: 1
-  probeBoxes: []
+  bakingRadius: 16
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 7eb30600
-  bakedDataSize: 439166
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -25448,15 +25474,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1167923067}
   - component: {fileID: 1167923073}
+  - component: {fileID: 1167923069}
   - component: {fileID: 1167923071}
   - component: {fileID: 1167923070}
-  - component: {fileID: 1167923069}
   m_Layer: 0
   m_Name: SaiteE1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1167923067
 Transform:
@@ -25481,7 +25507,7 @@ AudioSource:
   m_GameObject: {fileID: 1167923066}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0111950a829fcc94a93f4ffa4be9eca8,
+  OutputAudioMixerGroup: {fileID: -453015596009016452, guid: a107a1f2c12d1994489de4f53f56e4e6,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 09d84a688061d6446a522c8c8b1d5ba2, type: 3}
   m_PlayOnAwake: 0
@@ -25490,7 +25516,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 0
   DopplerLevel: 0
   MinDistance: 3.2
@@ -25499,7 +25525,7 @@ AudioSource:
   rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 1
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -25663,18 +25689,19 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 1
+  simulationType: 0
   uniqueIdentifier: BakedE1
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
   hrtfIndex: 0
-  bakingRadius: 24
-  useAllProbeBoxes: 1
-  probeBoxes: []
+  bakingRadius: 16
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 7eb30600
-  bakedDataSize: 439166
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
   bakedStatsFoldout: 0
   bakeToggle: 1
   bakedDataIdentifier:
@@ -31575,7 +31602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1514317128
 Transform:
@@ -31649,7 +31676,7 @@ AudioSource:
   m_GameObject: {fileID: 1514317127}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 0111950a829fcc94a93f4ffa4be9eca8,
+  OutputAudioMixerGroup: {fileID: -453015596009016452, guid: a107a1f2c12d1994489de4f53f56e4e6,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f5d3f00aaa3d85f4a870282e939ac730, type: 3}
   m_PlayOnAwake: 0
@@ -31658,7 +31685,7 @@ AudioSource:
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 1
+  SpatializePostEffects: 0
   Priority: 0
   DopplerLevel: 0
   MinDistance: 3.2
@@ -31667,7 +31694,7 @@ AudioSource:
   rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 1
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -31782,18 +31809,19 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 1
+  simulationType: 0
   uniqueIdentifier: BakedD
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
   hrtfIndex: 0
-  bakingRadius: 24
-  useAllProbeBoxes: 1
-  probeBoxes: []
+  bakingRadius: 16
+  useAllProbeBoxes: 0
+  probeBoxes:
+  - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 7eb30600
-  bakedDataSize: 439166
+  bakedProbeDataSizes: 5ccc0200
+  bakedDataSize: 183388
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -35945,7 +35973,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1694916759
 Transform:
@@ -44413,8 +44441,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095728015}
   m_LocalRotation: {x: -0.7071068, y: 0.000000022351736, z: -0.000000022351736, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 4.916, z: 1.47}
-  m_LocalScale: {x: 8.461541, y: 3.0766673, z: 10.261535}
+  m_LocalPosition: {x: 0, y: 4.92, z: 0.85}
+  m_LocalScale: {x: 8.461541, y: 4.1531796, z: 10.261535}
   m_Children: []
   m_Father: {fileID: 31639603}
   m_RootOrder: 2
@@ -44432,408 +44460,201 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placementStrategy: 2
-  horizontalSpacing: 1.6
-  heightAboveFloor: 1.88
+  horizontalSpacing: 3.3
+  heightAboveFloor: 1.15
   maxNumTriangles: 64
   maxOctreeDepth: 2
-  dataSize: 2641188
+  dataSize: 1286608
   probeSpherePoints:
-  - 6.0836444
-  - 14.541488
-  - 58.797504
-  - 5.6826663
-  - 14.071463
-  - 60.273407
-  - 5.2816896
-  - 13.60143
-  - 61.74931
-  - 4.8807125
-  - 13.131398
-  - 63.225212
-  - 10.033541
-  - 17.361649
-  - 50.361565
-  - 9.632564
-  - 16.891623
-  - 51.837475
-  - 9.2315855
-  - 16.4216
-  - 53.313377
-  - 8.830608
-  - 15.951574
-  - 54.789284
-  - 8.42963
-  - 15.48155
-  - 56.265186
-  - 8.028652
-  - 15.011526
-  - 57.74109
-  - 7.627674
-  - 14.541501
-  - 59.216995
-  - 7.226696
-  - 14.071476
-  - 60.692898
-  - 6.8257184
-  - 13.601452
-  - 62.168804
-  - 6.4247413
-  - 13.131428
-  - 63.644707
-  - 6.023762
-  - 12.661402
-  - 65.12061
-  - 11.577572
-  - 17.36165
-  - 50.781055
-  - 11.176595
-  - 16.891624
-  - 52.25696
-  - 10.775617
-  - 16.421602
-  - 53.732864
-  - 10.374639
-  - 15.951576
-  - 55.20877
-  - 9.97366
-  - 15.481552
-  - 56.684673
-  - 9.572682
-  - 15.011528
-  - 58.160576
-  - 9.171704
-  - 14.541503
-  - 59.636482
-  - 8.770726
-  - 14.071479
-  - 61.112385
-  - 8.369749
-  - 13.601455
-  - 62.588287
-  - 7.9687715
-  - 13.13143
-  - 64.06419
-  - 7.567793
-  - 12.661405
-  - 65.5401
-  - 13.522581
-  - 17.831675
-  - 49.72464
-  - 13.121603
-  - 17.361649
-  - 51.200542
-  - 12.720625
-  - 16.891624
-  - 52.676445
-  - 12.319647
-  - 16.4216
-  - 54.15235
-  - 11.91867
-  - 15.951576
-  - 55.628254
-  - 11.517691
-  - 15.481551
-  - 57.10416
-  - 11.116714
-  - 15.011526
-  - 58.580063
-  - 10.715735
-  - 14.541501
-  - 60.05597
-  - 10.314757
-  - 14.071476
-  - 61.53187
-  - 9.913779
-  - 13.601453
-  - 63.007774
-  - 9.512802
-  - 13.131428
-  - 64.48368
-  - 9.111823
-  - 12.661402
-  - 65.95959
-  - 8.710847
-  - 12.19138
-  - 67.435486
-  - 14.926427
-  - 19.571486
-  - 50.66011
-  - 14.665633
-  - 17.36165
-  - 51.62003
-  - 14.264656
-  - 16.891626
-  - 53.095932
-  - 13.863678
-  - 16.4216
-  - 54.57184
-  - 13.4627
-  - 15.951574
-  - 56.04774
-  - 13.061723
-  - 15.481548
-  - 57.523647
-  - 12.660745
-  - 15.011524
-  - 58.99955
-  - 12.259767
-  - 14.541502
-  - 60.475456
-  - 11.858789
-  - 14.071473
-  - 61.95136
-  - 11.457811
-  - 13.601448
-  - 63.42726
-  - 11.056834
-  - 13.131423
-  - 64.90317
-  - 10.655855
-  - 12.661397
-  - 66.379074
-  - 10.254878
-  - 12.191373
-  - 67.85497
-  - 16.610641
-  - 17.831673
-  - 50.563614
-  - 16.209663
-  - 17.361649
-  - 52.039516
-  - 15.808687
-  - 16.891623
-  - 53.51542
-  - 15.407709
-  - 16.421597
-  - 54.99132
-  - 15.006731
-  - 15.951572
-  - 56.467224
-  - 14.605753
-  - 15.481546
-  - 57.94313
-  - 14.204776
-  - 15.011521
-  - 59.419033
-  - 13.803798
-  - 14.541496
-  - 60.894936
-  - 13.40282
-  - 14.07147
-  - 62.370842
-  - 13.0018425
-  - 13.601444
-  - 63.846745
-  - 12.600864
-  - 13.131418
-  - 65.322655
-  - 12.199886
-  - 12.661392
-  - 66.79856
-  - 11.798909
-  - 12.191368
-  - 68.27446
-  - 17.753696
-  - 17.361649
-  - 52.459003
-  - 17.352718
-  - 16.891624
-  - 53.934906
-  - 16.95174
-  - 16.421598
-  - 55.410812
-  - 16.550762
-  - 15.951573
-  - 56.886715
-  - 16.149784
-  - 15.481547
-  - 58.36262
-  - 15.748806
-  - 15.011522
-  - 59.838524
-  - 15.347829
-  - 14.541499
-  - 61.314426
-  - 14.946851
-  - 14.071474
-  - 62.790333
-  - 14.545873
-  - 13.601449
-  - 64.266235
-  - 14.144896
-  - 13.131424
-  - 65.74214
-  - 13.743917
-  - 12.661398
-  - 67.21805
-  - 19.297726
-  - 17.361647
-  - 52.87849
-  - 18.896748
-  - 16.891623
-  - 54.354393
-  - 18.49577
-  - 16.421597
-  - 55.8303
-  - 18.094793
-  - 15.951572
-  - 57.3062
-  - 17.693815
-  - 15.481546
-  - 58.782104
-  - 17.292837
-  - 15.011521
-  - 60.258007
-  - 16.89186
-  - 14.541496
-  - 61.733913
-  - 16.490881
-  - 14.07147
-  - 63.20982
-  - 16.089903
-  - 13.601446
-  - 64.68572
-  - 15.688927
-  - 13.13142
-  - 66.16163
-  - 15.287948
-  - 12.661394
-  - 67.637535
-  - 18.43589
-  - 14.541488
-  - 62.153397
-  - 18.034912
-  - 14.071459
-  - 63.6293
-  - 17.633938
-  - 13.60143
-  - 65.1052
-  - 17.23296
-  - 13.131403
-  - 66.5811
+  - 9.296919
+  - 19.968803
+  - 52.50077
+  - 9.596162
+  - 16.254936
+  - 51.399326
+  - 8.469904
+  - 18.999376
+  - 55.544823
+  - 8.769146
+  - 15.28551
+  - 54.44338
+  - 7.6428866
+  - 18.02995
+  - 58.588875
+  - 7.942129
+  - 14.316083
+  - 57.48743
+  - 6.81587
+  - 17.060524
+  - 61.632927
+  - 7.115112
+  - 13.346659
+  - 60.531483
+  - 5.9888535
+  - 16.091097
+  - 64.67698
+  - 6.2880955
+  - 12.377233
+  - 63.57554
+  - 12.4814825
+  - 19.968801
+  - 53.365963
+  - 12.7807255
+  - 16.254936
+  - 52.26452
+  - 11.95371
+  - 15.285509
+  - 55.308575
+  - 10.82745
+  - 18.02995
+  - 59.454067
+  - 11.126693
+  - 14.316083
+  - 58.352623
+  - 9.998235
+  - 17.087816
+  - 62.506214
+  - 10.299676
+  - 13.346656
+  - 61.396675
+  - 9.173416
+  - 16.091097
+  - 65.54217
+  - 9.472659
+  - 12.377235
+  - 64.44073
+  - 15.666046
+  - 19.968803
+  - 54.231155
+  - 15.965289
+  - 16.254936
+  - 53.12971
+  - 15.138272
+  - 15.285511
+  - 56.173763
+  - 14.012013
+  - 18.02995
+  - 60.319256
+  - 14.311256
+  - 14.316083
+  - 59.21781
+  - 13.182798
+  - 17.087814
+  - 63.371407
+  - 13.48424
+  - 13.346655
+  - 62.261868
+  - 12.357981
+  - 16.091095
+  - 66.407364
+  - 12.657224
+  - 12.377226
+  - 65.30592
+  - 18.85061
+  - 19.968801
+  - 55.096344
+  - 19.149853
+  - 16.254936
+  - 53.9949
+  - 18.023594
+  - 18.999376
+  - 58.140396
+  - 18.322836
+  - 15.285513
+  - 57.038956
+  - 17.196577
+  - 18.02995
+  - 61.18445
+  - 17.49582
+  - 14.316088
+  - 60.083008
+  - 16.36956
+  - 17.060524
+  - 64.2285
+  - 16.668802
+  - 13.346662
+  - 63.12706
+  - 15.542543
+  - 16.091095
+  - 67.27255
+  - 15.841786
+  - 12.377236
+  - 66.17111
   probeSphereRadii:
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
-  - 1.6
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
+  - 3.3
   dataLayerInfo:
+  - name: reverb
+    identifier:
+      identifier: 0
+      type: 2
+    size: 183388
   - name: BakedA
     identifier:
       identifier: 966505380
       type: 0
-    size: 439166
+    size: 183388
   - name: BakedG
     identifier:
       identifier: 1166031071
       type: 0
-    size: 439166
-  - name: BakedE
+    size: 183388
+  - name: BakeE
     identifier:
       identifier: -680110013
       type: 0
-    size: 439166
+    size: 183388
   - name: BakedH
     identifier:
       identifier: 945322975
       type: 0
-    size: 439166
+    size: 183388
   - name: BakedE1
     identifier:
       identifier: -36426162
       type: 0
-    size: 439166
+    size: 183388
   - name: BakedD
     identifier:
       identifier: 793108863
       type: 0
-    size: 439166
+    size: 183388
 --- !u!1001 &2100481420
 PrefabInstance:
   m_ObjectHideFlags: 0
