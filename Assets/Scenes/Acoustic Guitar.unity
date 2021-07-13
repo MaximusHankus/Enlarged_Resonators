@@ -11424,13 +11424,13 @@ MonoBehaviour:
   dipolePower: 0
   occlusionMode: 3
   occlusionMethod: 1
-  sourceRadius: 0.42
-  occlusionSamples: 128
+  sourceRadius: 1
+  occlusionSamples: 256
   directMixLevel: 1
   reflections: 1
   indirectBinaural: 1
   physicsBasedAttenuationForIndirect: 1
-  indirectMixLevel: 0.4
+  indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
   avoidSilenceDuringInit: 0
@@ -12617,13 +12617,13 @@ MonoBehaviour:
   dipolePower: 0
   occlusionMode: 3
   occlusionMethod: 1
-  sourceRadius: 0.42
-  occlusionSamples: 128
+  sourceRadius: 1
+  occlusionSamples: 256
   directMixLevel: 1
   reflections: 1
   indirectBinaural: 1
   physicsBasedAttenuationForIndirect: 1
-  indirectMixLevel: 0.4
+  indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
   avoidSilenceDuringInit: 0
@@ -19291,13 +19291,13 @@ MonoBehaviour:
   dipolePower: 0
   occlusionMode: 3
   occlusionMethod: 1
-  sourceRadius: 0.42
-  occlusionSamples: 128
+  sourceRadius: 1
+  occlusionSamples: 256
   directMixLevel: 1
   reflections: 1
   indirectBinaural: 1
   physicsBasedAttenuationForIndirect: 1
-  indirectMixLevel: 0.4
+  indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
   avoidSilenceDuringInit: 0
@@ -24255,13 +24255,13 @@ MonoBehaviour:
   dipolePower: 0
   occlusionMode: 3
   occlusionMethod: 1
-  sourceRadius: 0.42
-  occlusionSamples: 128
+  sourceRadius: 1
+  occlusionSamples: 256
   directMixLevel: 1
   reflections: 1
   indirectBinaural: 1
   physicsBasedAttenuationForIndirect: 1
-  indirectMixLevel: 0.4
+  indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
   avoidSilenceDuringInit: 0
@@ -25640,13 +25640,13 @@ MonoBehaviour:
   dipolePower: 0
   occlusionMode: 3
   occlusionMethod: 1
-  sourceRadius: 0.42
-  occlusionSamples: 128
+  sourceRadius: 1
+  occlusionSamples: 256
   directMixLevel: 1
   reflections: 1
   indirectBinaural: 1
   physicsBasedAttenuationForIndirect: 1
-  indirectMixLevel: 0.4
+  indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
   avoidSilenceDuringInit: 0
@@ -31757,13 +31757,13 @@ MonoBehaviour:
   dipolePower: 0
   occlusionMode: 3
   occlusionMethod: 1
-  sourceRadius: 0.42
-  occlusionSamples: 128
+  sourceRadius: 1
+  occlusionSamples: 256
   directMixLevel: 1
   reflections: 1
   indirectBinaural: 1
   physicsBasedAttenuationForIndirect: 1
-  indirectMixLevel: 0.4
+  indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 
   avoidSilenceDuringInit: 0
