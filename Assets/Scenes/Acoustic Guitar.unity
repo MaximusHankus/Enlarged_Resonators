@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.136
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1833899386}
-  m_IndirectSpecularColor: {r: 0.024518559, g: 0.030697074, b: 0.041741453, a: 0.136}
+  m_IndirectSpecularColor: {r: 0.02433896, g: 0.030476125, b: 0.04160573, a: 0.136}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6676,8 +6676,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 1
   bakeToggle: 1
   currentStaticListenerNode: {fileID: 0}
@@ -6810,13 +6810,13 @@ MonoBehaviour:
     LowFreqTransmission: 0.07
     MidFreqTransmission: 0.014
     HighFreqTransmission: 0.005
-  simulationPreset: 2
+  simulationPreset: 3
   simulationValue:
-    MaxOcclusionSamples: 128
+    MaxOcclusionSamples: 256
     RealtimeRays: 16384
     RealtimeSecondaryRays: 1024
     RealtimeBounces: 8
-    RealtimeThreadsPercentage: 5
+    RealtimeThreadsPercentage: 35
     BakeRays: 65536
     BakeSecondaryRays: 4096
     BakeBounces: 128
@@ -11461,7 +11461,7 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 0
+  simulationType: 1
   uniqueIdentifier: BakedA
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
@@ -11472,8 +11472,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -12657,7 +12657,7 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 0
+  simulationType: 1
   uniqueIdentifier: BakedG
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
@@ -12668,8 +12668,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -19334,7 +19334,7 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 0
+  simulationType: 1
   uniqueIdentifier: BakeE
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
@@ -19345,8 +19345,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -24301,7 +24301,7 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 0
+  simulationType: 1
   uniqueIdentifier: BakedH
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
@@ -24312,8 +24312,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -25689,7 +25689,7 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 0
+  simulationType: 1
   uniqueIdentifier: BakedE1
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
@@ -25700,8 +25700,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 0
   bakeToggle: 1
   bakedDataIdentifier:
@@ -31809,7 +31809,7 @@ MonoBehaviour:
   indirectBinaural: 0
   physicsBasedAttenuationForIndirect: 1
   indirectMixLevel: 1
-  simulationType: 0
+  simulationType: 1
   uniqueIdentifier: BakedD
   avoidSilenceDuringInit: 0
   overrideHRTFIndex: 0
@@ -31820,8 +31820,8 @@ MonoBehaviour:
   - {fileID: 2095728017}
   bakedProbeNames:
   - Probe
-  bakedProbeDataSizes: 5ccc0200
-  bakedDataSize: 183388
+  bakedProbeDataSizes: 1c710000
+  bakedDataSize: 28956
   bakedStatsFoldout: 1
   bakeToggle: 1
   bakedDataIdentifier:
@@ -41080,7 +41080,8 @@ PrefabInstance:
       propertyPath: GroundLayers.m_Bits
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5885216827943657505, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
 --- !u!4 &1919991951 stripped
 Transform:
@@ -44440,9 +44441,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095728015}
-  m_LocalRotation: {x: -0.7071068, y: 0.000000022351736, z: -0.000000022351736, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 4.92, z: 0.85}
-  m_LocalScale: {x: 8.461541, y: 4.1531796, z: 10.261535}
+  m_LocalRotation: {x: -0.7071069, y: 0.000000014901161, z: -0.000000059604645, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 5.11, z: 1.51}
+  m_LocalScale: {x: 8.009149, y: 2.04738, z: 10.627078}
   m_Children: []
   m_Father: {fileID: 31639603}
   m_RootOrder: 2
@@ -44460,201 +44461,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placementStrategy: 2
-  horizontalSpacing: 3.3
-  heightAboveFloor: 1.15
+  horizontalSpacing: 5.3
+  heightAboveFloor: 2.09
   maxNumTriangles: 64
   maxOctreeDepth: 2
-  dataSize: 1286608
+  dataSize: 203152
   probeSpherePoints:
-  - 9.296919
-  - 19.968803
-  - 52.50077
-  - 9.596162
-  - 16.254936
-  - 51.399326
-  - 8.469904
-  - 18.999376
-  - 55.544823
-  - 8.769146
-  - 15.28551
-  - 54.44338
-  - 7.6428866
-  - 18.02995
-  - 58.588875
-  - 7.942129
-  - 14.316083
-  - 57.48743
-  - 6.81587
-  - 17.060524
-  - 61.632927
-  - 7.115112
-  - 13.346659
-  - 60.531483
-  - 5.9888535
-  - 16.091097
-  - 64.67698
-  - 6.2880955
-  - 12.377233
-  - 63.57554
-  - 12.4814825
-  - 19.968801
-  - 53.365963
-  - 12.7807255
-  - 16.254936
-  - 52.26452
-  - 11.95371
-  - 15.285509
-  - 55.308575
-  - 10.82745
-  - 18.02995
-  - 59.454067
-  - 11.126693
-  - 14.316083
-  - 58.352623
-  - 9.998235
-  - 17.087816
-  - 62.506214
-  - 10.299676
-  - 13.346656
-  - 61.396675
-  - 9.173416
-  - 16.091097
-  - 65.54217
-  - 9.472659
-  - 12.377235
-  - 64.44073
-  - 15.666046
-  - 19.968803
-  - 54.231155
-  - 15.965289
-  - 16.254936
-  - 53.12971
-  - 15.138272
-  - 15.285511
-  - 56.173763
-  - 14.012013
-  - 18.02995
-  - 60.319256
-  - 14.311256
-  - 14.316083
-  - 59.21781
-  - 13.182798
-  - 17.087814
-  - 63.371407
-  - 13.48424
-  - 13.346655
-  - 62.261868
-  - 12.357981
-  - 16.091095
-  - 66.407364
-  - 12.657224
-  - 12.377226
-  - 65.30592
-  - 18.85061
-  - 19.968801
-  - 55.096344
-  - 19.149853
-  - 16.254936
-  - 53.9949
-  - 18.023594
-  - 18.999376
-  - 58.140396
-  - 18.322836
-  - 15.285513
-  - 57.038956
-  - 17.196577
-  - 18.02995
-  - 61.18445
-  - 17.49582
-  - 14.316088
-  - 60.083008
-  - 16.36956
-  - 17.060524
-  - 64.2285
-  - 16.668802
-  - 13.346662
-  - 63.12706
-  - 15.542543
-  - 16.091095
-  - 67.27255
-  - 15.841786
-  - 12.377236
-  - 66.17111
+  - 11.512746
+  - 16.883194
+  - 53.117466
+  - 10.184507
+  - 15.326243
+  - 58.006405
+  - 8.856268
+  - 13.769284
+  - 62.895336
+  - 16.627348
+  - 16.883192
+  - 54.507015
+  - 15.299109
+  - 15.326239
+  - 59.39595
+  - 13.970872
+  - 13.769272
+  - 64.284874
   probeSphereRadii:
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
-  - 3.3
+  - 5.3
+  - 5.3
+  - 5.3
+  - 5.3
+  - 5.3
+  - 5.3
   dataLayerInfo:
-  - name: reverb
-    identifier:
-      identifier: 0
-      type: 2
-    size: 183388
   - name: BakedA
     identifier:
       identifier: 966505380
       type: 0
-    size: 183388
+    size: 28956
   - name: BakedG
     identifier:
       identifier: 1166031071
       type: 0
-    size: 183388
+    size: 28956
   - name: BakeE
     identifier:
       identifier: -680110013
       type: 0
-    size: 183388
+    size: 28956
   - name: BakedH
     identifier:
       identifier: 945322975
       type: 0
-    size: 183388
+    size: 28956
   - name: BakedE1
     identifier:
       identifier: -36426162
       type: 0
-    size: 183388
+    size: 28956
   - name: BakedD
     identifier:
       identifier: 793108863
       type: 0
-    size: 183388
+    size: 28956
+  - name: reverb
+    identifier:
+      identifier: 0
+      type: 2
+    size: 28956
 --- !u!1001 &2100481420
 PrefabInstance:
   m_ObjectHideFlags: 0
