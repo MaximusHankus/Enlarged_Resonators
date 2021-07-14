@@ -18,8 +18,6 @@ _Steam Audio 2.0-beta.20_ computes resonance.
 Build the App by selecting "file" > "Build".
 Ready-to-play for windows in folder _Build_.
 
-__There is a little bug that the first indirect sound processing is delayed. Trigger all guitar strings one time. After that resonance is working!__
-
 ## Controls:
 
 _WASD_ - movement
